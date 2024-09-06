@@ -1,45 +1,31 @@
-import random
-import turtle
+"""
+For this program, you will tell Tina the Turtle to draw 
+a triangle.
 
-# Returns a random color!
-def getRandomColor():
-    return "#%06X" % (random.randint(0, 0xFFFFFF))
-
-
-colors = ["red", "blue", "green", "yellow", "orange"]
-
-def getNextColor(i):
-    return colors[i % len(colors)]
-
-window = turtle.Screen()
-
-baseSize = 150  # the size of the black part of the star
-flameSize = 80  # the length of the flaming arms
-
-t = turtle.Turtle()
-t.shape("turtle")
-t.width(2) 
-t.speed(0)  
+You should look at the previous program, 02_Meet_Tina.py
+to see how to use the turtle commands.
 
 
-for i in range(25):
+"""
 
-    t.pencolor(getRandomColor())
-    t.fillcolor(getRandomColor())  
+# These lines are needed in most turtle programs
+import turtle                           # Tell Python we want to work with the turtle
+turtle.setup (width=600, height=600)    # Set the size of the window
 
-    t.begin_fill()
+tina = turtle.Turtle()                  # Create a turtle named blake
 
-    t.right(360 / 8) 
-    t.forward(64)
+# Use tina.forward() and tina.left() to draw a pentagon
+# Make each side of the pentagon a different color with 
+# tina.pencolor()
 
-    t.left(40) 
+... # Your code here
 
-    t.forward(flameSize)
-    t.right(170) 
-    t.forward(flameSize)
-    t.right(62) 
-    t.forward(baseSize) 
+                    # Close the window when we click on it
+tina.pencolor("blue")
+tina.forward(50)
+tina.color("blue")
+tina.begin_fill()
+tina.pentagon(72, steps=72)
+tina.end_fill()
+turtle.exitonclick()
 
-    t.end_fill()
-
-t.hideturtle() # Hide your turtle so you can see the pattern.

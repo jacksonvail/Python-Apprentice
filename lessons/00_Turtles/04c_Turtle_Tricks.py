@@ -20,8 +20,21 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 
 ... # Your code here
-
+tina.begin_fill()
+tina.forward(200)
+tina.left(220)
+tina.forward(220)
+tina.left(220)
+tina.forward(200)
+tina.left(220)
+tina.forward(200)
+tina.left(220)
+tina.forward(220)
+tina.left(220)
+tina.forward(200)
+tina.left(220)
+tina.pencolor("red")
 turtle.exitonclick()                    # Close the window when we click on it
-
-
+tina.end_fill()
+tina.write("what's goodey ganglar")
 # Dont forget to check in your code!
