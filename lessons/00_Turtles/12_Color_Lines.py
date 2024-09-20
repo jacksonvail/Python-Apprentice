@@ -21,7 +21,21 @@ for color in colors:                            # loop through the colors
 
 
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
+tina.pendown()
+tina.pencolor('red')
+tina.right(90)
+tina.forward(90)
+tina.left(90)
+tina.forward(90)
+tina.right(90)
+tina.forward(90)
+tina.left(90)
+for i in range():
+    tina.left(90)
+ 
 
-... # Your code here
 
-turtle.exitonclick()                     # Close the window when we click on it
+
+
+
+                   # Close the window when we click on 

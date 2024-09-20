@@ -12,7 +12,7 @@ Write your own turtle program! Here is what your program should do
 import turtle as turtle
 
 screen = turtle.Screen()
-screen.setup(width=600, height=600)
+screen.setup(width=10, height=10)
 screen.bgcolor('blue')
 
 t = turtle.Turtle()

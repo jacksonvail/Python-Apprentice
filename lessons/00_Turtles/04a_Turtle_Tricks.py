@@ -21,7 +21,7 @@ tina = turtle.Turtle()                  # Create a turtle named blake
 ... # Your code here
 
                     # Close the window when we click on it
-tina.pencolor("blue")
+tina.pencolor("green")
 tina.forward(50)
 tina.color("blue")
 tina.begin_fill()
