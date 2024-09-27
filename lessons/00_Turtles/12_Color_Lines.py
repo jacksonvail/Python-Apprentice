@@ -1,7 +1,7 @@
 """
 Color Lines
 
-1) Finish the program to make Tina draw a square with each side being a different color. 
+1) Finish the program to make Tina draw the padres logo. 
 
 """
 
@@ -22,20 +22,5 @@ for color in colors:                            # loop through the colors
 
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 tina.pendown()
-tina.pencolor('red')
-tina.right(90)
-tina.forward(90)
-tina.left(90)
-tina.forward(90)
-tina.right(90)
-tina.forward(90)
-tina.left(90)
-for i in range():
-    tina.left(90)
- 
 
 
-
-
-
-                   # Close the window when we click on 

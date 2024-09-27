@@ -13,7 +13,7 @@ Hint: See 08a_More Turtle Programs, section 'Click on the Turtle'
 
 import turtle as turtle
 
-turtle.setup(width=600, height=600)
+turtle.setup(width=400, height=400)
 
 t = turtle.Turtle()
 

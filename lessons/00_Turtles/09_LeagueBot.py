@@ -13,7 +13,7 @@ import turtle as turtle
 
 screen = turtle.Screen()
 screen.setup(width=10, height=10)
-screen.bgcolor('blue')
+screen.bgcolor('orange')
 
 t = turtle.Turtle()
 

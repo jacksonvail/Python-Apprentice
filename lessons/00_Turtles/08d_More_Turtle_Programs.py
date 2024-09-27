@@ -15,7 +15,7 @@ Use this code to get a random x and y location
 """
 import turtle as turtle
 
-turtle.setup(width=600, height=600)
+turtle.setup(width=100, height=100)
 
 t = turtle.Turtle()
 
