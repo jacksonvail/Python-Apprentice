@@ -31,9 +31,9 @@ t.shape("turtle")
 
 t.width(2) 
 
-t.speed(0) 
+t.speed(10000000) 
 
-for i in range(100):
+for i in range(100000):
     t.pencolor(getRandomColor())
 
     t.fillcolor(getRandomColor()) 
