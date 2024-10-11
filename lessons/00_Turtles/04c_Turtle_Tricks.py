@@ -19,22 +19,15 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
 
 
-... # Your code here
+
 tina.begin_fill()
-tina.forward(200)
-tina.left(220)
-tina.forward(220)
-tina.left(220)
-tina.forward(200)
-tina.left(220)
-tina.forward(190)
-tina.left(220)
-tina.forward(220)
-tina.left(220)
-tina.forward(200)
-tina.left(220)
+tina.forward(90)
+tina.right(90)
+tina.up(90)
+tina.left(90)
+tina.left(90)
+tina.right(90)
+tina.forward(90)
+tina.left(90)
+tina.right(90)
 tina.pencolor("red")
-turtle.exitonclick()                    # Close the window when we click on it
-tina.end_fill()
-tina.write("what's goodey ganglar")
-# Dont forget to check in your code!
