@@ -26,7 +26,7 @@ tina.left(130)
 tina.right(130)
 tina.left(130)
 
-for  i in range(7586):
+for  i in range(259):
 
 
     tina.color("red")

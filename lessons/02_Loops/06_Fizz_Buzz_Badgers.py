@@ -6,7 +6,7 @@ For the numbers from 1 to 30:
 
 * If the number is evenly divisible by 5, print '🦡 badger'
 * If the number is evenly divisible by 3, print '🍄 mushroom'
-* If the number is evenly divisible by 15, print '🐍 snake!'
+* If the number is evenly divisible by 15, print ' snake!'
 * If it is divisible by neither, print the number.
 
 Your job is to modify only one line -- the one with range() 

@@ -41,8 +41,7 @@ window.withdraw() # Hide the window; we just want to see pop ups
 # Use if statements to determine the age group
 # and create a message
 
-# Show the message to the user
-
+# Show the message to the use
 
 
 window.mainloop()  # Keeps the window open

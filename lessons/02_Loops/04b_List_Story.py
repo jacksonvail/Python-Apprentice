@@ -12,6 +12,6 @@ words = ['Once', '👦', 'upon', '🐕', 'park', 'met', 'with', 'a', 'the',
 story = ['Once upon a time they went to the park and had time to play.']
 
 # Create a story using the words in the list
-
+('Once' 'upon' 'a' 'time', 'we' 'went' 'to' 'the' 'park.')
 # Display the story to the user
 print(' '.join(story))
